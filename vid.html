@@ -1,0 +1,156 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="videos.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: -1;
+
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 110px;
+}
+
+.sidenav a {
+  padding: 50px 8px 30px 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: blue;
+}
+.buttom{
+    margin-top:200px;
+    margin-left: 110px;
+    margin-right:34px;
+    width:150px;
+    height:45px;
+    background:black;
+    float:right;
+    position:fixed;
+    bottom: 10px;
+    transition: height 2s ease-in-out;
+    z-index:7;
+
+  }
+.buttom:hover{
+    height:180px;
+
+}
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row{
+  border-color:black;
+}
+
+
+.main {
+   /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+#nav2{
+
+
+}
+iframe{
+  z-index:3;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+  <nav class="navbar justify-content-center" style="background-color:#151515;" id="">
+    <ul class="nav justify-content-center">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html"id="logo2"><h4>StackHacK</h4></a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:black;" id="nav2">
+        <a class="navbar-brand" href="#" style="color:white;">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <ul class="navbar-nav mr-auto" >
+        <li class="nav-item active">
+          <a class="nav-link" href="#" style="color:white;id">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#" style="color:white;">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:white;">
+          Courses
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html#frontend">Frontend</a>
+            <a class="dropdown-item" href="index.html#backend">Backend</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color:white;">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+  <div class="wrapper">
+    <div class="video-wrapper">
+      <iframe  src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <div class="card"><div class='buttom'> </div></div>
+  </div>
+  <div class="column">
+    <div class="card"><div class='buttom'> </div></div>
+  </div>
+  <div class="column">
+    <div class="card"><div class='buttom'> </div></div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+  background-color: 151515;
+}
+
+.wrapper{
+  width: 900px;
+  }
+
+.video-wrapper{
+  position: relative;
+  padding-bottom: 45.25%;
+  height: 0px;
+  padding-top: 0px;
+  }
+
+  .video-wrapper iframe{
+    position: absolute;
+    left:0px;
+    right: 0px;
+    top: 0px
+    bottom:0px;
+    height: 100%;
+    width:100%;
+  }

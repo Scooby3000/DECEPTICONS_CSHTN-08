@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&family=Sen&display=swap');
 
+
+
 #jumbo{
   padding: 17%;
   margin: 0px;
-  background-color: black;  
+  background-color: black;
 
 
 }
@@ -173,4 +175,8 @@ h2{
 }
 #navlist1{
   padding-left:40%;
+}
+
+#nav1 .li{
+  padding: 2px 30px 2px 30px;
 }
