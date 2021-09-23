@@ -13,51 +13,53 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 100px;
+  width: 160px;
   position: fixed;
-  z-index: -1;
-
+  z-index: 1;
   top: 0;
-  right: 0;
-  background-color: white;
+  left: 0;
+  background-color: #111;
   overflow-x: hidden;
   padding-top: 110px;
 }
 
 .sidenav a {
-  padding: 50px 8px 30px 5px;
+  padding: 50px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
-  color: black;
+  font-size: 25px;
+  color: white;
   display: block;
 }
 
 .sidenav a:hover{
   color: white;
 }
-
-
-
 .main {
-   /* Same as the width of the sidenav */
+  margin-left: 160px; /* Same as the width of the sidenav */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
-#nav2{
 
-
-}
-iframe{
-  z-index:3;
-}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+#nav2{
+  z-index: 3;
+}
+#nav1{
+  z-index: 3;
+}
+
+iframe{
+padding-top: 1%;
+
+}
 </style>
 </head>
 <body>
-  <nav class="navbar justify-content-center" style="background-color:#151515;" id="">
+  <nav class="navbar justify-content-center" style="background-color:#151515;" id="nav1">
     <ul class="nav justify-content-center">
       <li class="nav-item ">
         <a class="nav-link" href="index.html"id="logo2"><h4>StackHacK</h4></a>
@@ -98,20 +100,23 @@ iframe{
   </nav>
 
 
-
-
 <div class="sidenav">
-  <a href="#about">About</a>
-  <a href="#services">Services</a>
+  <a href="#about">Notes</a>
+  <a href="#services">quiz</a>
   <a href="#clients">Clients</a>
   <a href="#contact">Contact</a>
 </div>
 
 
 <div class="main">
+
+</div>
+
+
+<div class="main">
   <div class="wrapper">
     <div class="video-wrapper">
-      <iframe  src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="760" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   </div>
 </div>
