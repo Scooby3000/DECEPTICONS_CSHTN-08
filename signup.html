@@ -9,15 +9,16 @@
     <div id="login-box">
   <div class="left">
     <h1>Sign up</h1>
-
-    <input type="text" name="username" placeholder="Username" />
+    <form name="f1" action = "add.php" onsubmit = "return validation()" method = "POST">
+    <input type="text" id="user" name="user" placeholder="Username" />
     <input type="text" name="email" placeholder="E-mail" />
-    <input type="password" name="password" placeholder="Password" />
+    <input type="password" id="pass" name="pass" placeholder="Password" />
     <input type="password" name="password2" placeholder="Retype password" />
-    <input type="submit" class="floated" id="slide_start_button" value="Sign up">
+    <input type="submit" class="floated" id="btn" value="Sign up">
     <a href="loginpage.html">
-    <input type="submit" class="floated" id="slide_stop_button"  value="login"/>
+    <input type="submit" class="floated" id = "btn"  value="Login"/>
     </a>
+    </form>
   <br><br><br><br><br><br><p>Already have an  Account? then login in</p>
 </div>
 
